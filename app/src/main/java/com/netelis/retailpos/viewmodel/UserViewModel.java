@@ -23,7 +23,7 @@ public class UserViewModel extends ViewModel {
     public void loadUser() {
         // Do an asynchronous operation to fetch user.
         Random random = new Random(); // 1 ～10 的随机数
-        User u = new User("AC",random.nextInt(10)+1,"男");
+        User u = new User("AC",random.nextInt(10)+1+"","男");
         user.setValue(u);
     }
 

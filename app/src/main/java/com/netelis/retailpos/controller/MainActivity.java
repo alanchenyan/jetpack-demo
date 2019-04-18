@@ -30,5 +30,9 @@ public class MainActivity extends AppCompatActivity {
     public void viewModel(View view) {
         startActivity(new Intent(this, ViewModelActivity.class));
     }
+
+    public void dataBinding(View view) {
+        startActivity(new Intent(this, DataBindingActivity.class));
+    }
 }
 

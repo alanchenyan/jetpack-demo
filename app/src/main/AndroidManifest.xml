@@ -32,6 +32,10 @@
             android:name=".controller.ViewModelActivity"
             android:label="ViewModel演示" />
 
+        <activity
+            android:name=".controller.DataBindingActivity"
+            android:label="DataBinding演示" />
+
     </application>
 
 </manifest>

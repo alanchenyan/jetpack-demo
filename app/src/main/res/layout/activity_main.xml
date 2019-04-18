@@ -32,6 +32,13 @@
             android:textAllCaps="false"
             android:text="ViewModel演示"/>
 
+        <Button
+            android:onClick="dataBinding"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAllCaps="false"
+            android:text="DataBinding演示"/>
+
    </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
