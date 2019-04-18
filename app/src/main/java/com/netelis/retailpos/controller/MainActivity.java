@@ -9,6 +9,9 @@ import android.view.View;
 
 import com.netelis.retailpos.R;
 
+import butterknife.ButterKnife;
+import butterknife.OnClick;
+
 
 public class MainActivity extends AppCompatActivity {
 
@@ -16,22 +19,27 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
+        ButterKnife.bind(this);
     }
 
-    public void lifeCycle(View view) {
+
+    @OnClick(R.id.lifeCycleBtn)
+    public void lifeCycle() {
         startActivity(new Intent(this, LifecycleActivity.class));
     }
 
-    public void liveData(View view) {
+    @OnClick(R.id.liveDataBtn)
+    public void liveData() {
         startActivity(new Intent(this, LiveDataActivity.class));
     }
 
-    public void viewModel(View view) {
+    @OnClick(R.id.viewModelBtn)
+    public void viewModel() {
         startActivity(new Intent(this, ViewModelActivity.class));
     }
 
-    public void dataBinding(View view) {
+    @OnClick(R.id.dataBindingBtn)
+    public void dataBinding() {
         startActivity(new Intent(this, DataBindingActivity.class));
     }
 }

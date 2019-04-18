@@ -12,28 +12,28 @@
         android:gravity="center">
 
         <Button
-            android:onClick="lifeCycle"
+            android:id="@+id/lifeCycleBtn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textAllCaps="false"
             android:text="Lifecycle演示"/>
 
         <Button
-            android:onClick="liveData"
+            android:id="@+id/liveDataBtn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textAllCaps="false"
             android:text="LiveData演示"/>
 
         <Button
-            android:onClick="viewModel"
+            android:id="@+id/viewModelBtn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textAllCaps="false"
             android:text="ViewModel演示"/>
 
         <Button
-            android:onClick="dataBinding"
+            android:id="@+id/dataBindingBtn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textAllCaps="false"

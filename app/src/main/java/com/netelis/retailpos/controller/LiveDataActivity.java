@@ -12,6 +12,7 @@ import androidx.lifecycle.MutableLiveData;
 import androidx.lifecycle.Transformations;
 import butterknife.BindView;
 import butterknife.ButterKnife;
+import butterknife.OnClick;
 
 import com.netelis.retailpos.R;
 import com.netelis.retailpos.livedata.LiveUser;
@@ -60,7 +61,8 @@ public class LiveDataActivity extends AppCompatActivity {
         observeLiveDataToView(userInfo, tvInfo);
     }
 
-    public void changeUser(View view) {
+    @OnClick(R.id.changeUserBtn)
+    public void changeUser() {
         //UI上这两个会变化，因为使用了liveData
         user.setAge(18);
         user.setName("AlanChen");

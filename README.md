@@ -7,3 +7,7 @@
 框架采用google官方的Jetpack.
 
 view通过butterknife进行注入创建，严禁采用findViewById的方式创建view.
+
+activity 、activity.xml 、view id命名规范
+
+android 响应点击事件有四种写法，我们统一采用butterknife注解的方式
