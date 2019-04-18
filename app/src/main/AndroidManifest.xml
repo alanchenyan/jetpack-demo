@@ -28,6 +28,10 @@
             android:name=".controller.LiveDataActivity"
             android:label="LiveData演示" />
 
+        <activity
+            android:name=".controller.ViewModelActivity"
+            android:label="ViewModel演示" />
+
     </application>
 
 </manifest>

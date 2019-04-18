@@ -1,6 +1,7 @@
 package com.netelis.retailpos.controller;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.lifecycle.ViewModel;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -24,6 +25,10 @@ public class MainActivity extends AppCompatActivity {
 
     public void liveData(View view) {
         startActivity(new Intent(this, LiveDataActivity.class));
+    }
+
+    public void viewModel(View view) {
+        startActivity(new Intent(this, ViewModelActivity.class));
     }
 }
 

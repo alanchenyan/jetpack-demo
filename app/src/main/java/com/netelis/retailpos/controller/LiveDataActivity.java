@@ -60,7 +60,7 @@ public class LiveDataActivity extends AppCompatActivity {
         observeLiveDataToView(userInfo, tvInfo);
     }
 
-    public void changeLive(View view) {
+    public void changeUser(View view) {
         //UI上这两个会变化，因为使用了liveData
         user.setAge(18);
         user.setName("AlanChen");
@@ -95,4 +95,6 @@ public class LiveDataActivity extends AppCompatActivity {
     TextView tvSex;
     @BindView(R.id.tv_info_live)
     TextView tvInfo;
+
+
 }
