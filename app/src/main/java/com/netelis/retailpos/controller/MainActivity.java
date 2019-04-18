@@ -21,5 +21,9 @@ public class MainActivity extends AppCompatActivity {
     public void lifeCycle(View view) {
         startActivity(new Intent(this, LifecycleActivity.class));
     }
+
+    public void liveData(View view) {
+        startActivity(new Intent(this, LiveDataActivity.class));
+    }
 }
 

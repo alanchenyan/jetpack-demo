@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">retailpos</string>
+    <string name="title_activity_live_data">LiveDataActivity</string>
 </resources>
