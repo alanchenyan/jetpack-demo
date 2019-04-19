@@ -6,5 +6,5 @@ import dagger.Component;
 
 @Component
 public interface ActivityComponent {
-    void inject(DaggerActivity DaggerActivity);
+    void inject(DaggerActivity daggerActivity);
 }
