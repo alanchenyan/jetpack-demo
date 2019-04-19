@@ -3,10 +3,12 @@
 
 
     <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
         xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:context=".controller.MainActivity">
+        tools:context=".controller.NavigationActivity">
+
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -18,8 +20,21 @@
                 android:id="@+id/tv_name"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:text="我是Navigation导航Activity"
+                android:textAllCaps="false"
                 android:textSize="18sp" />
-            
+
+            <!--需要name为NavHost，且指明navigation的配置表navGraph-->
+            <fragment
+                android:id="@+id/fg_main_navi"
+                android:name="androidx.navigation.fragment.NavHostFragment"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:defaultNavHost="true"
+                app:navGraph="@navigation/nav" />
+
+
         </LinearLayout>
     </androidx.constraintlayout.widget.ConstraintLayout>
 </layout>
