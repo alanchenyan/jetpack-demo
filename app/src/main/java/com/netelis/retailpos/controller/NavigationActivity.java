@@ -17,16 +17,10 @@ import butterknife.ButterKnife;
 
 public class NavigationActivity extends AppCompatActivity {
 
-
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_navigation);
-        ButterKnife.bind(this);
-
     }
-
-    @BindView(R.id.tv_name)
-    TextView tvName;
 
 }
