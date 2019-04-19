@@ -1,9 +1,12 @@
 package com.netelis.retailpos.controller;
 
-import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
+
+import androidx.appcompat.app.AppCompatActivity;
+
 import com.netelis.retailpos.R;
+
 import butterknife.ButterKnife;
 import butterknife.OnClick;
 
@@ -47,6 +50,12 @@ public class MainActivity extends AppCompatActivity {
     public void navigation(){
         startActivity(new Intent(this, NavigationActivity.class));
     }
+
+    @OnClick(R.id.workManagerBtn)
+    public void workManager(){
+        startActivity(new Intent(this, WorkManagerActivity.class));
+    }
+
 
 }
 

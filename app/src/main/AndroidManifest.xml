@@ -44,6 +44,10 @@
             android:name=".controller.NavigationActivity"
             android:label="Navigation演示" />
 
+        <activity
+            android:name=".controller.WorkManagerActivity"
+            android:label="WorkManager演示" />
+
     </application>
 
 </manifest>
