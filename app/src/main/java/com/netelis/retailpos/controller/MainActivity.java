@@ -43,5 +43,10 @@ public class MainActivity extends AppCompatActivity {
         startActivity(new Intent(this, DaggerActivity.class));
     }
 
+    @OnClick(R.id.navigationBtn)
+    public void navigation(){
+        startActivity(new Intent(this, NavigationActivity.class));
+    }
+
 }
 

@@ -40,6 +40,10 @@
             android:name=".controller.DaggerActivity"
             android:label="Dagger演示" />
 
+        <activity
+            android:name=".controller.NavigationActivity"
+            android:label="Navigation演示" />
+
     </application>
 
 </manifest>
