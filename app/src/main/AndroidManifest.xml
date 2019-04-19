@@ -36,6 +36,10 @@
             android:name=".controller.DataBindingActivity"
             android:label="DataBinding演示" />
 
+        <activity
+            android:name=".controller.DaggerActivity"
+            android:label="Dagger演示" />
+
     </application>
 
 </manifest>

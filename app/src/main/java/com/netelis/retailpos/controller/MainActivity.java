@@ -1,14 +1,9 @@
 package com.netelis.retailpos.controller;
 
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.lifecycle.ViewModel;
-
 import android.content.Intent;
 import android.os.Bundle;
-import android.view.View;
-
 import com.netelis.retailpos.R;
-
 import butterknife.ButterKnife;
 import butterknife.OnClick;
 
@@ -42,5 +37,11 @@ public class MainActivity extends AppCompatActivity {
     public void dataBinding() {
         startActivity(new Intent(this, DataBindingActivity.class));
     }
+
+    @OnClick(R.id.daggerBtn)
+    public void dagger() {
+        startActivity(new Intent(this, DaggerActivity.class));
+    }
+
 }
 

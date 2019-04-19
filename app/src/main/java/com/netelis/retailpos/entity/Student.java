@@ -1,11 +1,14 @@
 package com.netelis.retailpos.entity;
 
+import javax.inject.Inject;
+
 public class Student {
 
     private String name;
     private String age;
     private String sex;
 
+    @Inject
     public Student(){
 
     }
