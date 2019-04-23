@@ -8,18 +8,15 @@
         android:layout_height="match_parent"
         tools:context=".controller.PagingActivity">
 
-        <LinearLayout
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rv_paging"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:gravity="center"
-            android:orientation="vertical">
+            android:scrollbarAlwaysDrawVerticalTrack="true"
+            android:scrollbarSize="20dp"
+            android:scrollbarStyle="outsideOverlay"
+            android:scrollbars="vertical"
+            tools:listitem="@layout/item_paging" />
 
-            <TextView
-                android:id="@+id/tv_name"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textSize="18sp" />
-            
-        </LinearLayout>
     </androidx.constraintlayout.widget.ConstraintLayout>
 </layout>
