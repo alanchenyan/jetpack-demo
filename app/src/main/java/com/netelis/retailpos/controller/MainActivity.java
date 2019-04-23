@@ -56,6 +56,10 @@ public class MainActivity extends AppCompatActivity {
         startActivity(new Intent(this, WorkManagerActivity.class));
     }
 
+    @OnClick(R.id.pagingBtn)
+    public void paging(){
+        startActivity(new Intent(this, PagingActivity.class));
+    }
 
 }
 

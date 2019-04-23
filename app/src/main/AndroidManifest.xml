@@ -48,6 +48,10 @@
             android:name=".controller.WorkManagerActivity"
             android:label="WorkManager演示" />
 
+        <activity
+            android:name=".controller.PagingActivity"
+            android:label="Paging演示" />
+
     </application>
 
 </manifest>
