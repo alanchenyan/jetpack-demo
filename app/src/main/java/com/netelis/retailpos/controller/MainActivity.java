@@ -61,5 +61,10 @@ public class MainActivity extends AppCompatActivity {
         startActivity(new Intent(this, PagingActivity.class));
     }
 
+    @OnClick(R.id.roomBtn)
+    public void room(){
+        startActivity(new Intent(this, RoomActivity.class));
+    }
+
 }
 

@@ -67,6 +67,13 @@
             android:textAllCaps="false"
             android:text="Paging演示"/>
 
+        <Button
+            android:id="@+id/roomBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAllCaps="false"
+            android:text="Room演示"/>
+
    </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

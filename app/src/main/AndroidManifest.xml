@@ -52,6 +52,10 @@
             android:name=".controller.PagingActivity"
             android:label="Paging演示" />
 
+        <activity
+            android:name=".controller.RoomActivity"
+            android:label="Room演示" />
+
     </application>
 
 </manifest>
