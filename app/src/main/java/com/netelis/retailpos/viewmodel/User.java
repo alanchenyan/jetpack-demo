@@ -1,16 +1,19 @@
-package com.netelis.retailpos.entity;
+package com.netelis.retailpos.viewmodel;
 
-import javax.inject.Inject;
-
-public class Student {
+public class User {
 
     private String name;
     private String age;
     private String sex;
 
-    @Inject
-    public Student(){
+    public User() {
+        this.name = name;
+    }
 
+    public User(String name, String age, String sex) {
+        this.name = name;
+        this.age = age;
+        this.sex = sex;
     }
 
     public String getName() {

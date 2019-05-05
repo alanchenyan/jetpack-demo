@@ -4,8 +4,6 @@ import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;
 import androidx.lifecycle.ViewModel;
 
-import com.netelis.retailpos.entity.User;
-
 import java.util.Random;
 
 public class UserViewModel extends ViewModel {

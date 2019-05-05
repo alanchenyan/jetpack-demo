@@ -8,7 +8,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import com.netelis.retailpos.R;
 import com.netelis.retailpos.dagger.DaggerActivityComponent;
-import com.netelis.retailpos.entity.Student;
+import com.netelis.retailpos.dagger.Student;
 
 import javax.inject.Inject;
 

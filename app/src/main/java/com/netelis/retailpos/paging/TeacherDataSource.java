@@ -3,8 +3,6 @@ package com.netelis.retailpos.paging;
 import androidx.annotation.NonNull;
 import androidx.paging.PositionalDataSource;
 
-import com.netelis.retailpos.entity.Teacher;
-
 import java.util.ArrayList;
 import java.util.List;
 

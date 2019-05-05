@@ -1,4 +1,4 @@
-package com.netelis.retailpos.entity;
+package com.netelis.retailpos.paging;
 
 public class Teacher {
 

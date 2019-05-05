@@ -8,7 +8,7 @@ import androidx.databinding.DataBindingUtil;
 
 import com.netelis.retailpos.R;
 import com.netelis.retailpos.databinding.ActivityDataBindingBinding;
-import com.netelis.retailpos.entity.Person;
+import com.netelis.retailpos.databinding.Person;
 
 public class DataBindingActivity extends AppCompatActivity {
 

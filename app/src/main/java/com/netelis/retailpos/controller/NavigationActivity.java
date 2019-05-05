@@ -1,19 +1,11 @@
 package com.netelis.retailpos.controller;
 
 import android.os.Bundle;
-import android.widget.TextView;
 
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.netelis.retailpos.R;
-import com.netelis.retailpos.dagger.DaggerActivityComponent;
-import com.netelis.retailpos.entity.Student;
-
-import javax.inject.Inject;
-
-import butterknife.BindView;
-import butterknife.ButterKnife;
 
 public class NavigationActivity extends AppCompatActivity {
 

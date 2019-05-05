@@ -1,4 +1,4 @@
-package com.netelis.retailpos.entity;
+package com.netelis.retailpos.databinding;
 
 import androidx.databinding.BaseObservable;
 import androidx.databinding.Bindable;

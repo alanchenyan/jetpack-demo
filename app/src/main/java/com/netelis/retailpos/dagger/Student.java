@@ -1,19 +1,16 @@
-package com.netelis.retailpos.entity;
+package com.netelis.retailpos.dagger;
 
-public class User {
+import javax.inject.Inject;
+
+public class Student {
 
     private String name;
     private String age;
     private String sex;
 
-    public User() {
-        this.name = name;
-    }
+    @Inject
+    public Student(){
 
-    public User(String name, String age, String sex) {
-        this.name = name;
-        this.age = age;
-        this.sex = sex;
     }
 
     public String getName() {

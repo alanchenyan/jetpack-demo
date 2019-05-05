@@ -1,7 +1,5 @@
 package com.netelis.retailpos.paging;
 
-import com.netelis.retailpos.entity.Teacher;
-
 import java.util.ArrayList;
 import java.util.List;
 

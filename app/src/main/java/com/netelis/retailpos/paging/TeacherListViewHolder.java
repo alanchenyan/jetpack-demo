@@ -5,7 +5,6 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 import com.netelis.retailpos.R;
-import com.netelis.retailpos.entity.Teacher;
 
 
 public class TeacherListViewHolder extends RecyclerView.ViewHolder {

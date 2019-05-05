@@ -9,7 +9,6 @@ import androidx.paging.PagedListAdapter;
 import androidx.recyclerview.widget.DiffUtil;
 
 import com.netelis.retailpos.R;
-import com.netelis.retailpos.entity.Teacher;
 
 public class TeacherPageListAdapter extends PagedListAdapter<Teacher, TeacherListViewHolder> {
 

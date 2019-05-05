@@ -4,18 +4,12 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.lifecycle.LiveData;
-import androidx.lifecycle.MutableLiveData;
-import androidx.lifecycle.Transformations;
 import androidx.lifecycle.ViewModelProviders;
 
 import com.netelis.retailpos.R;
-import com.netelis.retailpos.entity.User;
-import com.netelis.retailpos.livedata.LiveUser;
 import com.netelis.retailpos.viewmodel.UserViewModel;
 
 import butterknife.BindView;

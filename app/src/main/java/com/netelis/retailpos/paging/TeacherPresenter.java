@@ -4,8 +4,6 @@ import androidx.lifecycle.LiveData;
 import androidx.paging.LivePagedListBuilder;
 import androidx.paging.PagedList;
 
-import com.netelis.retailpos.entity.Teacher;
-
 
 public class TeacherPresenter {
 
