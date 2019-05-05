@@ -27,13 +27,7 @@ public class RoomActivity extends AppCompatActivity {
     protected void onResume() {
         super.onResume();
 
-        executors.getDiskIO().execute(new Runnable() {
-            @Override
-            public void run() {
-                testData();
-            }
-        });
-
+        executors.getDiskIO().execute(() -> testData());
     }
 
     private void testData(){
