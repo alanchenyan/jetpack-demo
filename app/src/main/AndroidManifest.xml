@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:dist="http://schemas.android.com/apk/distribution"
-    package="com.netelis.retailpos">
+    package="com.jetpack.demo">
 
     <dist:module dist:instant="true" />
 
@@ -12,7 +12,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".controller.MainActivity">
+        <activity android:name="com.jetpack.demo.controller.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -21,39 +21,39 @@
         </activity>
 
         <activity
-            android:name=".controller.LifecycleActivity"
+            android:name="com.jetpack.demo.controller.LifecycleActivity"
             android:label="Lifecycle演示" />
 
         <activity
-            android:name=".controller.LiveDataActivity"
+            android:name="com.jetpack.demo.controller.LiveDataActivity"
             android:label="LiveData演示" />
 
         <activity
-            android:name=".controller.ViewModelActivity"
+            android:name="com.jetpack.demo.controller.ViewModelActivity"
             android:label="ViewModel演示" />
 
         <activity
-            android:name=".controller.DataBindingActivity"
+            android:name="com.jetpack.demo.controller.DataBindingActivity"
             android:label="DataBinding演示" />
 
         <activity
-            android:name=".controller.DaggerActivity"
+            android:name="com.jetpack.demo.controller.DaggerActivity"
             android:label="Dagger演示" />
 
         <activity
-            android:name=".controller.NavigationActivity"
+            android:name="com.jetpack.demo.controller.NavigationActivity"
             android:label="Navigation演示" />
 
         <activity
-            android:name=".controller.WorkManagerActivity"
+            android:name="com.jetpack.demo.controller.WorkManagerActivity"
             android:label="WorkManager演示" />
 
         <activity
-            android:name=".controller.PagingActivity"
+            android:name="com.jetpack.demo.controller.PagingActivity"
             android:label="Paging演示" />
 
         <activity
-            android:name=".controller.RoomActivity"
+            android:name="com.jetpack.demo.controller.RoomActivity"
             android:label="Room演示" />
 
     </application>

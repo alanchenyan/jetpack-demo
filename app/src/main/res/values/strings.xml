@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">retailpos</string>
+    <string name="app_name">Jetpack Demo</string>
     <string name="title_activity_live_data">LiveDataActivity</string>
 
     <!-- TODO: Remove or change this placeholder text -->

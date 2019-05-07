@@ -6,7 +6,7 @@
     app:startDestination="@id/mainFragment">
     <fragment
         android:id="@+id/mainFragment"
-        android:name="com.netelis.retailpos.fragment.MainFragment"
+        android:name="com.jetpack.demo.fragment.MainFragment"
         android:label="fragment_main"
         tools:layout="@layout/fragment_main" >
         <action
@@ -15,7 +15,7 @@
     </fragment>
     <fragment
         android:id="@+id/secondFragment"
-        android:name="com.netelis.retailpos.fragment.SecondFragment"
+        android:name="com.jetpack.demo.fragment.SecondFragment"
         android:label="fragment_second"
         tools:layout="@layout/fragment_second" >
         <action
@@ -24,7 +24,7 @@
     </fragment>
     <fragment
         android:id="@+id/threeFragment"
-        android:name="com.netelis.retailpos.fragment.ThreeFragment"
+        android:name="com.jetpack.demo.fragment.ThreeFragment"
         android:label="fragment_three"
         tools:layout="@layout/fragment_three" />
 </navigation>
