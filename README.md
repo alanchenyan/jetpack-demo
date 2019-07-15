@@ -1,3 +1,3 @@
 Google Android 开发框架Jetpack 功能demo 
 
-create by AlanChen
+参考[jetpack-demo](https://swift.ctolib.com/zhiwei1990-android-jetpack-demo.html)
